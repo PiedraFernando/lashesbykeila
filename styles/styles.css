@@ -5,6 +5,10 @@
 body,html{
     height: 100%;
 }
+a{
+    text-decoration: none;
+    color: rgb(177, 197, 241);
+}
 nav{
     position: absolute;
     width: 100%;
@@ -19,7 +23,7 @@ li a{
     display: inline-block;
     padding: .8rem 1rem;
 }
-a{
+ul a{
     text-decoration: none;
     color: rgb(216, 216, 216);
 }
@@ -71,7 +75,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 50%;
+    width: 90%;
 }
 .tecnologiasIcons img{
     width: 80px;    
@@ -130,7 +134,13 @@ h2{
     color: rgb(221, 221, 221);
     background-color: rgb(133, 133, 133);
 }
-
 .tecnologiasIcons img:hover{
     width: 130px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col-6{
+    width: 40vw;
 }
