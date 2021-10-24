@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Zen Kurenaido', sans-serif;
     padding: 0;
 }
 body,html{
@@ -89,7 +90,7 @@ h2{
     font-weight: 400;
 }
 .carta .descripcion{
-    width: 40%;
+    width: 70%;
     text-align: center;
     display: inline-block;
     text-align: justify;
@@ -186,4 +187,7 @@ footer a{
 }
 .statusSuccess strong{
     color: white;
+}
+p{
+    font-size: 18px;
 }
