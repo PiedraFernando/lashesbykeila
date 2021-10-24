@@ -5,7 +5,6 @@
 body,html{
     height: 100%;
 }
-
 nav{
     position: absolute;
     width: 100%;
@@ -154,11 +153,6 @@ img{
     opacity: 0;
     transform: scale(0.9);
     transition: 0.7s ease-in-out all;
-}
-#aboutme{
-    opacity: 0;
-    transform: scale(0.9);
-    transition: 0.5s ease-in-out all;
 }
 .visible{
     opacity: 1 !important;
