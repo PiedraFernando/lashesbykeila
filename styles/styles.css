@@ -5,10 +5,7 @@
 body,html{
     height: 100%;
 }
-a{
-    text-decoration: none;
-    color: rgb(177, 197, 241);
-}
+
 nav{
     position: absolute;
     width: 100%;
@@ -77,10 +74,7 @@ h2{
     justify-content: space-evenly;
     width: 90%;
 }
-.tecnologiasIcons img{
-    width: 80px;    
-    margin: 10px;
-}
+
 .card{
     display: flex;
     justify-content: space-evenly;
@@ -134,8 +128,13 @@ h2{
     color: rgb(221, 221, 221);
     background-color: rgb(133, 133, 133);
 }
-.tecnologiasIcons img:hover{
-    width: 130px;
+.tecnologiasIcons > div{
+    background-color: rgb(73, 73, 73);
+    transition: background-color 0.5s ease;
+}
+.tecnologiasIcons > div:hover{
+    background-color: rgb(68, 68, 68);
+    border-radius: 5px;
 }
 .row{
     display: flex;
@@ -143,4 +142,38 @@ h2{
 }
 .col-6{
     width: 40vw;
+}
+.tecnologiasIcons img{
+    width: 80px;    
+    margin: 10px;
+}
+.tecnologiasIcons img:hover{
+    width: 90px;
+}
+img{
+    opacity: 0;
+    transform: scale(0.9);
+    transition: 0.7s ease-in-out all;
+}
+#aboutme{
+    opacity: 0;
+    transform: scale(0.9);
+    transition: 0.5s ease-in-out all;
+}
+.visible{
+    opacity: 1 !important;
+    transform: scale(1) !important;
+    transition: 0.5s ease-in-out all !important;
+}
+li > a:hover{
+    color: rgb(179, 179, 179);;
+}
+li > a:hover{
+    color: rgb(179, 179, 179);;
+}
+a{
+    color: rgb(177, 197, 241);
+}
+a:hover{
+    color: rgb(138, 167, 230);
 }
