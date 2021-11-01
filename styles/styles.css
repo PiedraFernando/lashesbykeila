@@ -140,6 +140,10 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+.colum{
+    display: flex;
+    flex-direction: column;
+}
 .col-6{
     width: 45vw;
 }
