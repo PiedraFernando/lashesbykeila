@@ -1,0 +1,28 @@
+.header > div{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100%;
+}
+.col-6{
+    width: 90vw;
+}
+.me{
+    width: 80%;
+    text-align: justify;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.mb-5{
+   margin-bottom: 30px; 
+}
