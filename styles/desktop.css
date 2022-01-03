@@ -11,10 +11,20 @@ nav{
     width: 100%;
     background-color: rgb(41, 41, 41);
 }
+#proyectos-nav{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
 nav ul{
     display: flex;
     list-style-type: none;
     justify-content: center;
+}
+#proyectos-nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: left;
 }
 li a{
     display: inline-block;
@@ -23,6 +33,16 @@ li a{
 ul a{
     text-decoration: none;
     color: rgb(216, 216, 216);
+}
+li .nav-a{
+    display: inline-block;
+    padding: .8rem 1rem;
+    color: rgb(216, 216, 216);
+    background-color: transparent;
+    border:none;
+}
+ul .nav-a{
+    text-decoration: none;
 }
 h2{
     font-size: 45px;
@@ -193,4 +213,10 @@ footer a{
 }
 p{
     font-size: 18px;
+}
+.proyectos{
+    background-color: rgb(77, 77, 77);
+}
+.folderSelected{
+    background-color: rgb(77, 77, 77);
 }

@@ -16,3 +16,20 @@ const observador = new IntersectionObserver(cargarImg, {
 for(const img of imgs){
     observador.observe(img)
 }
+
+function openProyect(cityName) {
+    var i;
+    var x = document.getElementsByClassName("proyectos");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById(cityName).style.display = "block";
+
+    var x = document.getElementsByClassName("folderLi");
+    for (i = 0; i < x.length; i++) {
+        x[i].classList.remove("folderSelected")
+        console.log(x[i])
+    }
+    document.getElementById(cityName+"Li").classList.add("folderSelected");
+
+}

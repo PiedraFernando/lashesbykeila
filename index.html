@@ -16,8 +16,8 @@
     <nav>
         <ul>
             <li><a href="#Inicio">Inicio</a></li>
-            <li><a href="#Tecnologias">Tecnologías</a></li>
             <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#Tecnologias">Tecnologías</a></li>
         </ul>
     </nav>
     <div class="contenedor">
@@ -43,6 +43,137 @@
                 </div>
             </div>
         </div>
+        <div class="header" id="Proyectos">
+            <h2>Proyectos</h2>
+            <nav id="proyectos-nav">
+                <ul>
+                    <li id="dosLi" class="folderLi folderSelected"><button class="nav-a" onclick="openProyect('dos')">La via pizzeria</button></li>
+                    <li id="tresLi" class="folderLi"><button class="nav-a" onclick="openProyect('tres')">Tlapaleria Piedra Web</button></li>
+                    <li id="unoLi" class="folderLi"><button class="nav-a " onclick="openProyect('uno')">Pokemon</button></li>
+                </ul>
+            </nav>
+            <div id="dos" class="proyectos">
+                <div class="carta mb-5">
+                    <img src="resources/gpizza.png" style="width: 60%;" alt="">
+                    <p class="titulo">Sistema de gestion web para pizzeria</p>
+                    <p class="descripcion">La realización de este sistema pretende resolver las necesidades básicas de un restaurante de pizzas que son: la administración de almacén y la comunicación de caja y cocina en tiempo real.</p>
+                    <p class="status"><strong>Estado: </strong><span class="statusSuccess">Version 1.0</span></p>
+                    <p class="subTitulo">Tecnologias utilizada</p>
+                    <div class="tecnologiasCard">
+                        <img src="resources/file_type_vscode_icon_130084.png" alt="">
+                        <img src="resources/html-5.png" alt="">
+                        <img src="resources/VUE.png" alt="">
+                        <img src="resources/bootstrap_plain_logo_icon_146619.png" alt="">
+                        <img src="resources/css.png" alt="">
+                        <img src="resources/github.png" alt="">
+                        <img src="resources/mongodb.png" alt="">
+                        <img src="resources/node.png" alt="">
+                        <img src="resources/file_type_git_icon_130581.png" alt="">
+                        <img src="resources/javascript.png" alt="">
+                        <img src="resources/socketio.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tres" class="proyectos" style="display:none">
+                <div class="carta mb-5">
+                    <img src="resources/TlapaleriaPiedraweb.png" style="width: 50%;" alt="">
+                    <p class="titulo">Tlapaleria Piedra Web</p>
+                    <p class="descripcion">Es un sistema que permite a los clientes de Trapalearía Piedra, ver los productos que tiene la trapalearía para asi tener la certeza de la compra. Ademas TlapaleriaPiedraweb, tiene un sistema punto se venta para los dueños de la trapalearía.</p>
+                    <p class="status"><strong>Estado: </strong>En desarrollo</p>
+                    <p class="subTitulo">Tecnologias utilizada</p>
+                    <div class="tecnologiasCard">
+                        <img src="resources/html-5.png" alt="HTML html-5">
+                        <img src="resources/css.png" alt="">
+                        <img src="resources/javascript.png" alt="">
+                        <img src="resources/reaccionar.png" alt="">
+                        <img src="resources/file_type_firebase_icon_130606.png" alt="">
+                        <img src="resources/bootstrap_plain_logo_icon_146619.png" alt="">
+                        <img src="resources/file_type_vscode_icon_130084.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="uno" class="proyectos" style="display:none">
+                <div class="carta mb-5">
+                    <img src="resources/howisthispokemon.png" style="width: 30%;" alt="">
+                    <p class="titulo">who is this pokemon?</p>
+                    <p class="descripcion">who is this Pokémon? es un mini videojuego creado con la intención de probar las habilidades en el desarrollo de <i>single application</i> en vue3. vasado en el las caricaturas de Pokémon.</p>
+                    <p class="status"><strong>Estado: </strong><span class="statusSuccess">Version 1.0</span></p>
+                    <p class="subTitulo">Tecnologias utilizada</p>
+                    <div class="tecnologiasCard">
+                        <img src="resources/file_type_vscode_icon_130084.png" alt="">
+                        <img src="resources/VUE.png" alt="">
+                        <img src="resources/github.png" alt="">
+                        <img src="resources/file_type_git_icon_130581.png" alt="">
+                        <img src="resources/bootstrap_plain_logo_icon_146619.png" alt="">
+                    </div>
+                    <a href="https://piedrafernando.github.io/whoIsThisPokemonVue/" target="blank">Ver mas</a>
+                </div>
+            </div>
+        </div>
+
+
+<!--
+        <div class="header" id="Proyectos">
+            <div>
+                <h2>Proyectos</h2>
+                <div class="card">
+                    <div class="carta mb-5">
+                        <img src="resources/howisthispokemon.png" style="width: 30%;" alt="">
+                        <p class="titulo">who is this pokemon?</p>
+                        <p class="descripcion">who is this Pokémon? es un mini videojuego creado con la intención de probar las habilidades en el desarrollo de <i>single application</i> en vue3. vasado en el las caricaturas de Pokémon.</p>
+                        <p class="status"><strong>Estado: </strong><span class="statusSuccess">Version 1.0</span></p>
+                        <p class="subTitulo">Tecnologias utilizada</p>
+                        <div class="tecnologiasCard">
+                            <img src="resources/file_type_vscode_icon_130084.png" alt="">
+                            <img src="resources/VUE.png" alt="">
+                            <img src="resources/github.png" alt="">
+                            <img src="resources/file_type_git_icon_130581.png" alt="">
+                            <img src="resources/bootstrap_plain_logo_icon_146619.png" alt="">
+                        </div>
+                        <a href="https://piedrafernando.github.io/howIsThisPokemonVue/" target="blank">Ver mas</a>
+                    </div>
+                    <div class="carta mb-5">
+                        <img src="resources/gpizza.png" style="width: 60%;" alt="">
+                        <p class="titulo">Sistema de gestion web para pizzeria</p>
+                        <p class="descripcion">La realización de este sistema pretende resolver las necesidades básicas de un restaurante de pizzas que son: la administración de almacén y la comunicación de caja y cocina en tiempo real.</p>
+                        <p class="status"><strong>Estado: </strong><span class="statusSuccess">Version 1.0</span></p>
+                        <p class="subTitulo">Tecnologias utilizada</p>
+                        <div class="tecnologiasCard">
+                            <img src="resources/file_type_vscode_icon_130084.png" alt="">
+                            <img src="resources/html-5.png" alt="">
+                            <img src="resources/VUE.png" alt="">
+                            <img src="resources/bootstrap_plain_logo_icon_146619.png" alt="">
+                            <img src="resources/css.png" alt="">
+                            <img src="resources/github.png" alt="">
+                            <img src="resources/mongodb.png" alt="">
+                            <img src="resources/node.png" alt="">
+                            <img src="resources/file_type_git_icon_130581.png" alt="">
+                            <img src="resources/javascript.png" alt="">
+                            <img src="resources/socketio.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="carta mb-5">
+                        <img src="resources/TlapaleriaPiedraweb.png" style="width: 50%;" alt="">
+                        <p class="titulo">Tlapaleria Piedra Web</p>
+                        <p class="descripcion">Es un sistema que permite a los clientes de Trapalearía Piedra, ver los productos que tiene la trapalearía para asi tener la certeza de la compra. Ademas TlapaleriaPiedraweb, tiene un sistema punto se venta para los dueños de la trapalearía.</p>
+                        <p class="status"><strong>Estado: </strong>En desarrollo</p>
+                        <p class="subTitulo">Tecnologias utilizada</p>
+                        <div class="tecnologiasCard">
+                            <img src="resources/html-5.png" alt="HTML html-5">
+                            <img src="resources/css.png" alt="">
+                            <img src="resources/javascript.png" alt="">
+                            <img src="resources/reaccionar.png" alt="">
+                            <img src="resources/file_type_firebase_icon_130606.png" alt="">
+                            <img src="resources/bootstrap_plain_logo_icon_146619.png" alt="">
+                            <img src="resources/file_type_vscode_icon_130084.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
         <div class="header" id="Tecnologias">
             <div>
                 <h2>Tecnologias</h2>
@@ -151,64 +282,6 @@
                                 <img style="border-radius: 20px;" src="resources/icons8-adobe-xd-48.png" alt="">
                                 <h3>Adobe xd</h3>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header" id="Proyectos">
-            <div>
-                <h2>Proyectos</h2>
-                <div class="card">
-                    <div class="carta mb-5">
-                        <img src="resources/howisthispokemon.png" style="width: 30%;" alt="">
-                        <p class="titulo">who is this pokemon?</p>
-                        <p class="descripcion">who is this Pokémon? es un mini videojuego creado con la intención de probar las habilidades en el desarrollo de <i>single application</i> en vue3. vasado en el las caricaturas de Pokémon.</p>
-                        <p class="status"><strong>Estado: </strong><span class="statusSuccess">Version 1.0</span></p>
-                        <p class="subTitulo">Tecnologias utilizada</p>
-                        <div class="tecnologiasCard">
-                            <img src="resources/file_type_vscode_icon_130084.png" alt="">
-                            <img src="resources/VUE.png" alt="">
-                            <img src="resources/github.png" alt="">
-                            <img src="resources/file_type_git_icon_130581.png" alt="">
-                            <img src="resources/bootstrap_plain_logo_icon_146619.png" alt="">
-                        </div>
-                        <a href="https://piedrafernando.github.io/howIsThisPokemonVue/" target="blank">Ver mas</a>
-                    </div>
-                    <div class="carta mb-5">
-                        <img src="resources/gpizza.png" style="width: 60%;" alt="">
-                        <p class="titulo">Sistema de gestion web para pizzeria</p>
-                        <p class="descripcion">La realización de este sistema pretende resolver las necesidades básicas de un restaurante de pizzas que son: la administración de almacén y la comunicación de caja y cocina en tiempo real.</p>
-                        <p class="status"><strong>Estado: </strong><span class="statusSuccess">Version 1.0</span></p>
-                        <p class="subTitulo">Tecnologias utilizada</p>
-                        <div class="tecnologiasCard">
-                            <img src="resources/file_type_vscode_icon_130084.png" alt="">
-                            <img src="resources/html-5.png" alt="">
-                            <img src="resources/VUE.png" alt="">
-                            <img src="resources/bootstrap_plain_logo_icon_146619.png" alt="">
-                            <img src="resources/css.png" alt="">
-                            <img src="resources/github.png" alt="">
-                            <img src="resources/mongodb.png" alt="">
-                            <img src="resources/node.png" alt="">
-                            <img src="resources/file_type_git_icon_130581.png" alt="">
-                            <img src="resources/javascript.png" alt="">
-                            <img src="resources/socketio.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="carta mb-5">
-                        <img src="resources/TlapaleriaPiedraweb.png" style="width: 50%;" alt="">
-                        <p class="titulo">Tlapaleria Piedra Web</p>
-                        <p class="descripcion">Es un sistema que permite a los clientes de Trapalearía Piedra, ver los productos que tiene la trapalearía para asi tener la certeza de la compra. Ademas TlapaleriaPiedraweb, tiene un sistema punto se venta para los dueños de la trapalearía.</p>
-                        <p class="status"><strong>Estado: </strong>En desarrollo</p>
-                        <p class="subTitulo">Tecnologias utilizada</p>
-                        <div class="tecnologiasCard">
-                            <img src="resources/html-5.png" alt="HTML html-5">
-                            <img src="resources/css.png" alt="">
-                            <img src="resources/javascript.png" alt="">
-                            <img src="resources/reaccionar.png" alt="">
-                            <img src="resources/file_type_firebase_icon_130606.png" alt="">
-                            <img src="resources/bootstrap_plain_logo_icon_146619.png" alt="">
-                            <img src="resources/file_type_vscode_icon_130084.png" alt="">
                         </div>
                     </div>
                 </div>
