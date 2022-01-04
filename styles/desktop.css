@@ -24,7 +24,7 @@ nav ul{
 #proyectos-nav ul{
     display: flex;
     list-style-type: none;
-    justify-content: left;
+    justify-content: center;
 }
 li a{
     display: inline-block;
@@ -215,8 +215,20 @@ p{
     font-size: 18px;
 }
 .proyectos{
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(100, 100, 100);
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 .folderSelected{
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(100, 100, 100);
+}
+.carta{
+    display: flex;
+    justify-content: space-evenly;
+}
+.folderImg{
+    width: 65%;
+}
+.folderInfo{
+
 }

@@ -24,5 +24,11 @@
     justify-content: space-evenly;
 }
 .mb-5{
-   margin-bottom: 30px; 
+    margin-bottom: 30px; 
+}
+.carta{
+    display: block;
+}
+.folderImg{
+    width: 100%;
 }
