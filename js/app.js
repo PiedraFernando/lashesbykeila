@@ -19,7 +19,7 @@ for(const img of imgs){
 
 function openProyect(cityName) {
     var i;
-    var x = document.getElementsByClassName("proyectos");
+    var x = document.getElementsByClassName("misTrabajos-proyectos");
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
@@ -32,4 +32,9 @@ function openProyect(cityName) {
     }
     document.getElementById(cityName+"Li").classList.add("folderSelected");
 
+}
+
+function validar(event){
+    event.preventDefault(); 
+    alert('Se envió tu peticion a revición, te responderemos en breve')
 }

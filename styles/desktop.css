@@ -1,3 +1,12 @@
+/*
+#ffbaef
+#fe8be4
+#fe58d9
+#ff2ccf
+#d200a2
+#ef00b8
+*/
+
 *{
     margin: 0;
     font-family: 'Zen Kurenaido', sans-serif;
@@ -9,7 +18,35 @@ body,html{
 nav{
     position: absolute;
     width: 100%;
-    background-color: rgb(41, 41, 41);
+    background-color: #d200a2;
+}
+.cursive-title{
+    font-family: 'The Nautigal', cursive;
+    font-size: 60px;
+    color: #d200a2;
+}
+.cursive-title-light{
+    font-family: 'The Nautigal', cursive;
+    font-size: 60px;
+    color: #ffbaef;
+}
+.title{
+    color: #d200a2;
+    font-size: 70px;
+    font-family: 'The Nautigal', cursive;
+    display: block;
+}
+button{
+    font-size: 17px;
+}
+.sub-title{
+    font-size: 30px;
+    display: block;
+}
+.fondo-transparent{
+    background-color: #ffbaef7a;
+    display: block;
+    padding: 40px;
 }
 #proyectos-nav{
     position: relative;
@@ -32,12 +69,10 @@ li a{
 }
 ul a{
     text-decoration: none;
-    color: rgb(216, 216, 216);
 }
 li .nav-a{
     display: inline-block;
     padding: .8rem 1rem;
-    color: rgb(216, 216, 216);
     background-color: transparent;
     border:none;
 }
@@ -61,11 +96,11 @@ h2{
     text-align: center;
 }
 #Inicio {
-    color: rgb(221, 221, 221);
     background-color: rgb(53, 53, 53);
+    background-image: url('../resources/fondoUno.gif');
+    background-size: cover;
 }
 #Inicio div{
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -73,8 +108,7 @@ h2{
 #Inicio h2{
     font-size: 3rem;
 }
-.me{
-    width: 30%;
+.text-justyfy{
     text-align: justify;
 }
 #Tecnologias{
@@ -91,9 +125,10 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 90%;
 }
-
+#Citas{
+    background-color: #ff2ccf;
+}
 .card{
     display: flex;
     justify-content: space-evenly;
@@ -131,28 +166,24 @@ h2{
 }
 .status strong{
     color: rgb(221, 221, 221);
-    
     margin: 5px 0px;
 }
 
-#Proyectos{
+#misTrabajos{
     color: rgb(221, 221, 221);
-    background-color: rgb(93, 93, 93);
+    background-color: #ffbaef;
 }
 #Contacto{
-    color: rgb(221, 221, 221);
-    background-color: rgb(113, 113, 113);
+    background-color: #ffbaef;
 }
 #Recursos{
     color: rgb(221, 221, 221);
     background-color: rgb(133, 133, 133);
 }
 .tecnologiasIcons > div{
-    background-color: rgb(73, 73, 73);
     transition: background-color 0.5s ease;
 }
 .tecnologiasIcons > div:hover{
-    background-color: rgb(68, 68, 68);
     border-radius: 5px;
 }
 .row{
@@ -184,19 +215,16 @@ img{
     transition: 0.5s ease-in-out all !important;
 }
 li > a:hover{
-    color: rgb(179, 179, 179);
-}
-li > a:hover{
-    color: rgb(179, 179, 179);
+    color: #000;
 }
 a{
-    color: rgb(177, 197, 241);
+    color: #fff;
 }
 a:hover{
-    color: rgb(138, 167, 230);
+    color: #ef00b8;
 }
 footer{
-    background-color: rgb(207, 207, 207);
+    background-color: #fe8be4;
     color: rgb(41, 41, 41);
 }
 footer > div{
@@ -214,20 +242,44 @@ footer a{
 p{
     font-size: 18px;
 }
-.proyectos{
-    background-color: rgb(100, 100, 100);
+.misTrabajos-proyectos{
+    background-color: #d200a2;
     padding-top: 30px;
     padding-bottom: 60px;
 }
 .folderSelected{
-    background-color: rgb(100, 100, 100);
+    background-color: #d200a2;
+}
+.folderImg{
+    padding: 25px;
+}
+.folderImg > img{
+    height: 35vw;
+    border-radius: 15px;
+}
+.folderInfo{
+    display: flex;
+    align-items: center;
 }
 .carta{
     display: flex;
     justify-content: space-evenly;
 }
-.folderImg{
+.link{
+    color: #d200a2;
+    text-decoration: none;
 }
-.folderInfo{
-
+.form{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border-color: transparent;
+}
+.form-btn{
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #ffbff0;
+    background-color: #d200a2;
+    border-color: transparent;
 }
