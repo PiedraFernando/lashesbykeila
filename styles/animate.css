@@ -1,0 +1,274 @@
+#loading{
+  background-color: #ffbaef;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+}
+
+#linea1 {
+  animation-name: linea1;
+  animation-duration: 8s;
+  width: 1px;
+  height: 0px;
+  position: absolute;
+  top: 50%;
+  }
+@keyframes linea1{
+  0%{
+    border: 1px solid #d200a2;    
+  }
+  50%{
+    border: 1px solid #d200a2;    
+    width: 100vw;
+  }
+  100%{
+    border: 1px solid #d200a2;    
+    width: 100vw;
+  }
+}
+
+#cuadro1{
+  animation-name: cubo1;
+  animation-delay: 0.5s;
+  animation-duration: 3s;
+  width: 150px;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -75px;
+}
+@keyframes cubo1{
+  0%{
+    border: 1px solid #d200a2;    
+    transform: scale(0);
+  }
+  50%{
+    border: 1px solid #d200a2;    
+    transform: scale(1);
+  }
+  85%{
+    border: 1px solid #d200a2;    
+    transform: rotate(-45deg);
+  }
+  100%{
+    border: 1px solid #d200a100;    
+    transform: rotate(-45deg);
+  }
+}
+
+#cuadro2{
+  animation-name: cubo2;
+  background-color: rgba(240, 248, 255, 0);
+  animation-delay: 1s;
+  animation-duration: 2.6s;
+  width: 150px;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -75px;
+}
+@keyframes cubo2{
+  0%{
+    background-color: rgba(238, 130, 238, 0);
+    transform: scale(0);
+  }
+  0.01%{
+    transform: scale(0);
+    background-color: #fe8be4;
+  }
+  50%{
+    background-color: #fe8be4;
+    transform: scale(1);
+  }
+  85%{
+    background-color: #fe8be4;   
+    transform: rotate(-45deg);
+  }
+  100%{
+    background-color: #fe8be300;   
+    transform: rotate(-45deg);
+  }
+}
+
+#marca{
+  text-align: center;
+  color: #fe8be4;
+}
+#cuadro3{
+  animation-name: cubo3;
+  background-color: rgba(240, 248, 255, 0);
+  animation-delay: 1.5s;
+  animation-duration: 6.5s;
+  width: 50px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+@keyframes cubo3{
+  0%{
+    background-color: rgba(238, 130, 238, 0);
+    transform: scale(0);
+  }
+  0.01%{
+    transform: scale(0);
+    background-color: #ff2ccf;
+  }
+  25%{
+    background-color: #ff2ccf;
+    transform: scale(1);
+  }
+  50%{
+    background-color: #ff2ccf;
+    transform: scale(0.8);
+  }
+  75%{
+    background-color: #ff2ccf;
+    transform: scale(1.3);
+  }
+  100%{
+    background-color: #ff2ccf;
+    transform: scale(0.8);
+  }
+}
+
+
+#circulo1{
+  animation-name: circle1;
+  background-color: rgba(240, 248, 255, 0);
+  animation-delay: 2.5s;
+  animation-duration: 3s;
+  width: 700px;
+  height: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -350px;
+  border-radius: 1000px;
+}
+@keyframes circle1{
+  0%{
+    background-color: rgba(238, 130, 238, 0);
+    transform: scale(0);
+  }
+  0.01%{
+    border:1px solid #ff2ccf;
+    transform: scale(0);
+  }
+  100%{
+    border:1px solid #ff2ccf;
+    transform: scale(3);
+  }
+}
+
+
+#circulo2{
+  animation-name: circle2;
+  background-color: rgba(240, 248, 255, 0);
+  animation-delay: 3s;
+  animation-duration: 3s;
+  width: 700px;
+  height: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -350px;
+  border-radius: 1000px;
+}
+@keyframes circle2{
+  0%{
+    background-color: rgba(238, 130, 238, 0);
+    transform: scale(0);
+  }
+  0.01%{
+    border:1px solid #ff2ccf;
+    transform: scale(0);
+  }
+  100%{
+    border:1px solid #ff2ccf;
+    transform: scale(3);
+  }
+}
+
+
+#circulo3{
+  animation-name: circle3;
+  background-color: rgba(240, 248, 255, 0);
+  animation-delay: 3.5s;
+  animation-duration: 3s;
+  width: 700px;
+  height: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -350px;
+  border-radius: 1000px;
+}
+@keyframes circle3{
+  0%{
+    background-color: rgba(238, 130, 238, 0);
+    transform: scale(0);
+  }
+  0.01%{
+    border:1px solid #ff2ccf;
+    transform: scale(0);
+  }
+  100%{
+    border:1px solid #ff2ccf;
+    transform: scale(3);
+  }
+}
+
+#circulo4{
+  animation-name: circle4;
+  background-color: rgba(240, 248, 255, 0);
+  animation-delay: 6.5s;
+  animation-duration: 3s;
+  width: 700px;
+  height: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -350px;
+  border-radius: 1000px;
+}
+@keyframes circle4{
+  0%{
+    background-color: rgba(238, 130, 238, 0);
+    transform: scale(0);
+  }
+  0.01%{
+    border:1px solid #ff2ccf;
+    transform: scale(0);
+  }
+  100%{
+    border:1px solid #ff2ccf;
+    transform: scale(3);
+  }
+}
+

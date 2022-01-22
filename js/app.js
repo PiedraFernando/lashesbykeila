@@ -38,3 +38,8 @@ function validar(event){
     event.preventDefault(); 
     alert('Se envió tu peticion a revición, te responderemos en breve')
 }
+
+setTimeout(() => {
+    let loader = document.getElementById('loading')
+    loader.style.display = 'none'
+}, 8000);
